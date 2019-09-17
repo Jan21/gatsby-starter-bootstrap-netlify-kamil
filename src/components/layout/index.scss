@@ -107,3 +107,24 @@
     padding-left: 10px; 
   }
 }
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("./backgr.jpg");
+  height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: none;
+}
+
+.logo {
+  margin-top: 7px;
+}

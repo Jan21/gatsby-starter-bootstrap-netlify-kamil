@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
+    title: 'Kavecka Investments',
     author: 'konsumer',
     authorLink: 'https://github.com/konsumer',
     disqus: 'gatsby-starter-blog'// put your disqus ID here
@@ -11,13 +11,6 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages'
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/examples`,
-        name: 'examples'
       }
     },
     {
