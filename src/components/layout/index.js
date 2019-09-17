@@ -25,7 +25,7 @@ export default ({ children }) => (
             <ul className='nav navbar-nav'>
 
               <li className='nav-item'>
-                <Link to='/about' className='nav-link'>About</Link>
+                <Link to='/about' className='nav-link about-item'>About</Link>
               </li>
             </ul>
           </Container>

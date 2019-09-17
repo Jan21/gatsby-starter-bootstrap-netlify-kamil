@@ -128,3 +128,23 @@ body, html {
 .logo {
   margin-top: 7px;
 }
+
+.aboutbox {
+  width: 1000px;
+    height: 371px;
+    background-color: #ffffffcf;
+    margin: auto;
+    border-radius: 7px;
+    padding: 19px;
+    margin-top: 50px;
+}
+
+.about-item{
+  font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255) !important;
+}
+
+.about-item:hover{
+  color:  #5104d7 !important;
+}
