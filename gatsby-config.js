@@ -23,6 +23,7 @@ module.exports = {
       }
     },
     'gatsby-plugin-offline',
+    `gatsby-plugin-transition-link`,
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
