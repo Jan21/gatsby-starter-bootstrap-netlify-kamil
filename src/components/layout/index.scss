@@ -127,6 +127,7 @@ body, html {
 
 .logo {
   margin-top: 7px;
+  height: 30px;
 }
 
 .aboutbox {
@@ -148,3 +149,9 @@ body, html {
 .about-item:hover{
   color:  #5104d7 !important;
 }
+
+@media all and (max-width: 600px) {
+  .logo {
+    height: 20px;
+  }
+ }

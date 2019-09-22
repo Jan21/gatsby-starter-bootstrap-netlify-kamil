@@ -18,7 +18,6 @@ export default class MenuComp extends Component {
                 className="logo"
                 src="kavecka_logo.svg" 
                 alt="Kavecka Investments"
-                height="60px"
                 />
             </AniLink>
             <ul className='nav navbar-nav'>
