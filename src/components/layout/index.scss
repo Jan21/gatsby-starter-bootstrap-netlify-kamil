@@ -150,8 +150,68 @@ body, html {
   color:  #5104d7 !important;
 }
 
+
+
+
+
+.jumbo {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.jumbo .jumbo-video {
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  object-fit: cover;
+}
+
+.jumbo .text-wrap {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: radial-gradient(circle at 16% 48%,rgba(37,22,43,.5),rgba(31,11,39,.3) 37%,rgba(59,8,75,.1));
+}
+
+.jumbo .text-wrap, .jumbo .text-wrap .hero-text {
+    width: 100%;
+    position: absolute;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
 @media all and (max-width: 600px) {
   .logo {
     height: 20px;
   }
  }
+
+ @media screen and (max-width: 756px) {
+  .jumbo .jumbo-video {
+      display: none;
+  }
+  }
+  
+  @media screen and (max-width: 756px){
+  .jumbo .text-wrap {
+      background: url(./backgr.jpg);
+      background-size: cover;
+      background-position: center center;
+  }
+  }
