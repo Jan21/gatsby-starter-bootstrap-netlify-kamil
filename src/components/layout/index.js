@@ -15,6 +15,5 @@ export default ({ children }) => (
   <video className="jumbo-video"  poster="video_jpg.jpg" loop playsinline="true" autoplay="true" muted="true">
   <source src="bcgr_video.mp4" type="video/mp4"></source>
 </video>
-<div>ii</div>
 </div>
 ) 
